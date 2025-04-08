@@ -1,0 +1,12 @@
+.Map{
+    border: solid;
+    box-sizing: border-box;
+    background-color: #446BA3;
+    margin: 5%;
+    margin-top: 3%;
+    height: fit-content;
+}
+
+path:hover{
+    filter: brightness(110%);
+}
