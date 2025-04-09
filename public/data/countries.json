@@ -1,0 +1,608 @@
+{
+    "ARA": {
+        "name": "Aragon",
+        "capital": "Barcelona",
+        "title": "Kingdom"
+    },
+    "CAS": {
+        "name": "Castile",
+        "capital": "Toledo",
+        "title": "Kingdom"
+    },
+    "GRA": {
+        "name": "Granada",
+        "capital": "Granada",
+        "title": "Emirate"
+    },
+    "NAV": {
+        "name": "Navarra",
+        "capital": "Pamplona",
+        "title": "Kingdom"
+    },
+    "POR": {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "title": "Kingdom"
+    },
+
+
+
+    "AMG": {
+        "name": "Armagnac",
+        "capital": "Armagnac",
+        "title": "County"
+    },
+    "AUV":{
+        "name": "Auvergne",
+        "capital": "Auvergne",
+        "title": "Duchy"
+    },
+    "BOU":{
+        "name": "Bourbonnais",
+        "capital": "Moulins",
+        "title": "Duchy"
+    },
+    "BRI":{
+        "name": "Brittany",
+        "capital": "Nantes",
+        "title": "Duchy"
+    },
+    "BUR":{
+        "name": "Burgundy",
+        "capital": "Dijon",
+        "title": "Duchy"
+    },
+    "FOI":{
+        "name": "Foix",
+        "capital": "Foix",
+        "title": "County"
+    },
+    "FRA":{
+        "name": "France",
+        "capital": "Paris",
+        "title": "Kingdom"
+    },
+    "LOR":{
+        "name": "Lorraine",
+        "capital": "Nancy",
+        "title": "Duchy"
+    },
+    "NEV":{
+        "name": "Nevers",
+        "capital": "Nevers",
+        "title": "County"
+    },
+    "ORL":{
+        "name": "Orleans",
+        "capital": "Orléans",
+        "title": "Duchy"
+    },
+    "PRO":{
+        "name": "Provence",
+        "capital": "Angers",
+        "title": "County"
+    },
+
+
+
+    "CNN":{
+        "name": "Clanricarde",
+        "capital": "Connaught",
+        "title": "Tanistry"
+    },
+    "DMS":{
+        "name": "Desmond",
+        "capital": "Cork",
+        "title": "Tanistry"
+    },
+    "ENG":{
+        "name": "England",
+        "capital": "London",
+        "title": "Kingdom"
+    },
+    "KID":{
+        "name": "Kildare",
+        "capital": "Kildare",
+        "title": "Tanistry"
+    },
+    "LEI":{
+        "name": "Leinster",
+        "capital": "Leinster",
+        "title": "Tanistry"
+    },
+    "MCM":{
+        "name": "Munster",
+        "capital": "Desmond",
+        "title": "Tanistry"
+    },
+    "FLY":{
+        "name": "Offaly",
+        "capital": "Ui Failghe",
+        "title": "Tanistry"
+    },
+    "ORD":{
+        "name": "Ormond",
+        "capital": "Ormond",
+        "title": "Tanistry"
+    },
+    "SCO":{
+        "name": "Scotland",
+        "capital": "Edinburgh",
+        "title": "Kingdom"
+    },
+    "SLN":{
+        "name": "Sligo",
+        "capital": "Sligo",
+        "title": "Tanistry"
+    },
+    "LOI":{
+        "name": "Isles",
+        "capital": "Inner Herbrides",
+        "title": "Kingdom"
+    },
+    "THO":{
+        "name": "Thomond",
+        "capital": "Limerick",
+        "title": "Tanistry"
+    },
+    "TRY":{
+        "name": "Tyrconnell",
+        "capital": "Donegal",
+        "title": "Tanistry"
+    },
+    "TYR":{
+        "name": "Tyrone",
+        "capital": "Tyrone",
+        "title": "Tanistry"
+    },
+    "ULS":{
+        "name": "Ulster",
+        "capital": "Ulster",
+        "title": "Tanistry"
+    },
+
+
+
+    "BRB":{
+        "name": "Brabant",
+        "capital": "Brussels",
+        "title": "Duchy"
+    },
+    "EFR":{
+        "name": "East Frisia",
+        "capital": "East Frisia",
+        "title": "Peasant Republic"
+    },
+    "FLA":{
+        "name": "Flanders",
+        "capital": "Bruges",
+        "title": "County"
+    },
+    "FRI":{
+        "name": "Friesland",
+        "capital": "Friesland",
+        "title": "Peasant Republic"
+    },
+    "GEL":{
+        "name": "Gelre",
+        "capital": "Gelre",
+        "title": "Duchy"
+    },
+    "HOL":{
+        "name": "Holland",
+        "capital": "Den Haag",
+        "title": "County"
+    },
+    "LIE":{
+        "name": "Liege",
+        "capital": "Liège",
+        "title": "Bishopric"
+    },
+    "UTR":{
+        "name": "Utrecht",
+        "capital": "Utrecht",
+        "title": "Bishopric"
+    },
+
+
+
+    "BLG":{
+        "name": "Bologna",
+        "capital": "Bologna",
+        "title": "Signoria"
+    },
+    "FER":{
+        "name": "Ferrara",
+        "capital": "Ferrara",
+        "title": "Duchy"
+    },
+    "LAN":{
+        "name": "Florence",
+        "capital": "Firenze",
+        "title": "Signoria"
+    },
+    "GEN":{
+        "name": "Genoa",
+        "capital": "Genova",
+        "title": "Merchant Republic"
+    },
+    "LUC":{
+        "name": "Lucca",
+        "capital": "Lucca",
+        "title": "Signoria"
+    },
+    "MAN":{
+        "name": "Mantua",
+        "capital": "Mantova",
+        "title": "Duchy"
+    },
+    "MLO":{
+        "name": "Milan",
+        "capital": "Milano",
+        "title": "Duchy"
+    },
+    "MFA":{
+        "name": "Montferrat",
+        "capital": "Monferrato",
+        "title": "Margraviate"
+    },
+    "NAP":{
+        "name": "Naples",
+        "capital": "Napoli",
+        "title": "Kingdom"
+    },
+    "PGA":{
+        "name": "Perugia",
+        "capital": "Perugia",
+        "title": "Signoria"
+    },
+    "SZO":{
+        "name": "Saluzzo",
+        "capital": "Saluzzo",
+        "title": "Margraviate"
+    },
+    "SAV":{
+        "name": "Savoy",
+        "capital": "Ciamberi",
+        "title": "Duchy"
+    },
+    "SIE":{
+        "name": "Siena",
+        "capital": "Siena",
+        "title": "Signoria"
+    },
+    "PAP":{
+        "name": "Papal State",
+        "capital": "Roma",
+        "title": "Papacy"
+    },
+    "URB":{
+        "name": "Urbino",
+        "capital": "Urbino",
+        "title": "Duchy"
+    },
+    "VEN":{
+        "name": "Venice",
+        "capital": "Venezia",
+        "title": "Merchant Republic"
+    },
+
+
+
+    "AAC":{
+        "name": "Aachen",
+        "capital": "Aachen",
+        "title": "Free City"
+    },
+    "ANH":{
+        "name": "Anhalt",
+        "capital": "Anhalt",
+        "title": "Principality"
+    },
+    "BRG":{
+        "name": "Jülich-Berg",
+        "capital": "Berg",
+        "title": "Duchy"
+    },
+    "BOH":{
+        "name": "Bohemia",
+        "capital": "Praha",
+        "title": "Kingdom"
+    },
+    "BRA":{
+        "name": "Brandenburg",
+        "capital": "Berlin",
+        "title": "Electoral Margraviate"
+    },
+    "BRE":{
+        "name": "Bremen",
+        "capital": "Bremen",
+        "title": "Free City"
+    },
+    "BRU":{
+        "name": "Brunswick",
+        "capital": "Braunschweig",
+        "title": "Principality"
+    },
+    "KLE":{
+        "name": "Cleves",
+        "capital": "Kleves",
+        "title": "Duchy"
+    },
+    "KOL":{
+        "name": "Cologne",
+        "capital": "Köln",
+        "title": "Archbishopric"
+    },
+    "DTT":{
+        "name": "Dithmarschen",
+        "capital": "Dithmarschen",
+        "title": "Peasant Republic"
+    },
+    "RVA":{
+        "name": "Dortmund",
+        "capital": "Dortmund",
+        "title": "Free City"
+    },
+    "FRN":{
+        "name": "Frankfurt",
+        "capital": "Frankfurt",
+        "title": "Free City"
+    },
+    "GOS":{
+        "name": "Goslar",
+        "capital": "Goslar",
+        "title": "Free City"
+    },
+    "HAM":{
+        "name": "Hamburg",
+        "capital": "Hamburg",
+        "title": "Free City"
+    },
+    "HES":{
+        "name": "Hesse",
+        "capital": "Kassel",
+        "title": "Landgraviate"
+    },
+    "SHL":{
+        "name": "Holstein",
+        "capital": "Holstein",
+        "title": "County"
+    },
+    "HSA":{
+        "name": "Lübeck",
+        "capital": "Lübeck",
+        "title": "Merchant Republic"
+    },
+    "LUN":{
+        "name": "Lüneburg",
+        "capital": "Lüneburg",
+        "title": "Duchy"
+    },
+    "MAG":{
+        "name": "Magdeburg",
+        "capital": "Magdeburg",
+        "title": "Bishopric"
+    },
+    "MAI":{
+        "name": "Mainz",
+        "capital": "Mainz",
+        "title": "Archbishopric"
+    },
+    "MKL":{
+        "name": "Mecklenburg",
+        "capital": "Rostock",
+        "title": "Duchy"
+    },
+    "MUN":{
+        "name": "Münster",
+        "capital": "Münster",
+        "title": "Bishopric"
+    },
+    "NSA":{
+        "name": "Nassau",
+        "capital": "Nassau",
+        "title": "County"
+    },
+    "OLD":{
+        "name": "Oldenburg",
+        "capital": "Oldenburg",
+        "title": "County"
+    },
+    "LAU":{
+        "name": "Saxe-Lauenburg",
+        "capital": "Lauenburg",
+        "title": "Duchy"
+    },
+    "SAX":{
+        "name": "Saxony",
+        "capital": "Dresden",
+        "title": "Electoral Margraviate"
+    },
+    "STE":{
+        "name": "Stettin",
+        "capital": "Stettin",
+        "title": "Duchy"
+    },
+    "THU":{
+        "name": "Thuringia",
+        "capital": "Weimar",
+        "title": "Landgraviate"
+    },
+    "TRI":{
+        "name": "Trier",
+        "capital": "Trier",
+        "title": "Archbishopric"
+    },
+    "VER":{
+        "name": "Verden",
+        "capital": "Verden",
+        "title": "Bishopric"
+    },
+    "WOL":{
+        "name": "Wolgast",
+        "capital": "Wolgast",
+        "title": "Duchy"
+    },
+
+
+
+    "ANS":{
+        "name": "Ansbach",
+        "capital": "Ansbach",
+        "title": "Principality"
+    },
+    "AUG":{
+        "name": "Augsburg",
+        "capital": "Augsburg",
+        "title": "Bishopric"
+    },
+    "HAB":{
+        "name": "Austria",
+        "capital": "Wien",
+        "title": "Archduchy"
+    },
+    "BAD":{
+        "name": "Baden",
+        "capital": "Baden-Baden",
+        "title": "Margraviate"
+    },
+    "BAM":{
+        "name": "Bamberg",
+        "capital": "Bamberg",
+        "title": "Bishopric"
+    },
+    "BAY":{
+        "name": "Bayreuth",
+        "capital": "Kulmbach",
+        "title": "Principality"
+    },
+    "MBZ":{
+        "name": "Bregenz",
+        "capital": "Bregenz",
+        "title": "County"
+    },
+    "CLI":{
+        "name": "Cilli",
+        "capital": "Celje",
+        "title": "County"
+    },
+    "GNV":{
+        "name": "Geneva",
+        "capital": "Geneva",
+        "title": "Canton"
+    },
+    "ING":{
+        "name": "Ingolstadt",
+        "capital": "Ingolstadt",
+        "title": "Duchy"
+    },
+    "KNZ":{
+        "name": "Konstanz",
+        "capital": "Konstanz",
+        "title": "Free City"
+    },
+    "LBV":{
+        "name": "Landshut",
+        "capital": "Landshut",
+        "title": "Duchy"
+    },
+    "MEM":{
+        "name": "Memmingen",
+        "capital": "Memmingen",
+        "title": "Free City"
+    },
+    "MLH":{
+        "name": "Mulhouse",
+        "capital": "Mulhouse",
+        "title": "Republic"
+    },
+    "UBV":{
+        "name": "Munich",
+        "capital": "Munich",
+        "title": "Duchy"
+    },
+    "NUM":{
+        "name": "Nuremberg",
+        "capital": "Nürnburg",
+        "title": "Free City"
+    },
+    "PSS":{
+        "name": "Passau",
+        "capital": "Passau",
+        "title": "Bishopric"
+    },
+    "REG":{
+        "name": "Regensburg",
+        "capital": "Regensburg",
+        "title": "Free City"
+    },
+    "ROT":{
+        "name": "Rothenburg",
+        "capital": "Rothenburg",
+        "title": "Free City"
+    },
+    "SLZ":{
+        "name": "Salzburg",
+        "capital": "Salzburg",
+        "title": "Bishopric"
+    },
+    "ALS":{
+        "name": "Strasbourg",
+        "capital": "Strassburg",
+        "title": "Bishopric"
+    },
+    "SWI":{
+        "name": "Swizterland",
+        "capital": "Bern",
+        "title": "Republic"
+    },
+    "PAL":{
+        "name": "Palatinate",
+        "capital": "Heidelberg",
+        "title": "Electoral Palatinate"
+    },
+    "TTL":{
+        "name": "Three Leagues",
+        "capital": "Chur",
+        "title": "Canton"
+    },
+    "TNT":{
+        "name": "Trent",
+        "capital": "Trent",
+        "title": "Bishopric"
+    },
+    "ULM":{
+        "name": "Ulm",
+        "capital": "Ulm",
+        "title": "Free City"
+    },
+    "WUR":{
+        "name": "Wurttemberg",
+        "capital": "Württemberg",
+        "title": "Duchy"
+    },
+    "WBG":{
+        "name": "Wurzburg",
+        "capital": "Würzburg",
+        "title": "Bishopric"
+    },
+    
+
+    
+    "DAN":{
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "title": "Kingdom"
+    },
+    "SWE":{
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "title": "Kingdom"
+    },
+    "NOR":{
+        "name": "Norway",
+        "capital": "Oslo",
+        "title": "Kingdom"
+    }
+}

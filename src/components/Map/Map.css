@@ -36,6 +36,14 @@ path:hover{
     flex-direction: column;
 }
 
+.tooltipExtra{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 1%;
+}
+
 .flag{
     width: 50%;
 }
