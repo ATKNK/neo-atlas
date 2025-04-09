@@ -15,9 +15,9 @@ path:hover{
 .tooltip{
     position: fixed;
     background: white;
-    border: 1px solid;
-    padding: 8px;
-    border-radius: 4px;
+    border: solid 1px;
+    padding: 0.5%;
+    border-radius: 5%;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.2s ease;
@@ -27,4 +27,15 @@ path:hover{
 
 .tooltip.visible {
     opacity: 1;
+}
+
+.tooltipContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag{
+    width: 50%;
 }

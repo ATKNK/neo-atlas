@@ -18,7 +18,12 @@ function Map() {
       visible: true,
       x: e.clientX,
       y: e.clientY,
-      content: `${countryName || ''}`
+      content: (
+        <div className="tooltipContent">
+          <img src={`/flags/${countryTag}.png`} alt={countryName} className="flag"/>
+          <div className="tooltipTitle">{countryName}</div>
+        </div>
+      )
     });
   };
 
