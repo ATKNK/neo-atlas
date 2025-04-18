@@ -1,49 +1,52 @@
-.Map{
-    border: solid;
-    box-sizing: border-box;
-    background-color: #446BA3;
-    margin: 5%;
-    margin-top: 3%;
-    height: fit-content;
+.Map {
+  display: flex;
+  border: solid;
+  box-sizing: border-box;
+  background-color: #446ba3;
+  height: 90vh;
+  width: 65%;
+  margin-right: 0;
 }
 
-path:hover{
-    filter: brightness(110%);
-    transition: 0.2s;
+.country:hover {
+  filter: brightness(110%);
+  transition: 0.2s;
 }
 
-.tooltip{
-    position: fixed;
-    background: white;
-    border: solid 1px;
-    padding: 0.5%;
-    border-radius: 5%;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    z-index: 100;
-    font-size: 14px;
+.tooltip {
+  position: fixed;
+  background: white;
+  border: solid 1px;
+  padding: 0.5%;
+  border-radius: 5%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 100;
+  font-size: 14px;
+  width: 7%;
+  text-wrap: wrap;
 }
 
 .tooltip.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
-.tooltipContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.tooltipContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.tooltipExtra{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: 1%;
+.tooltipExtra {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 1%;
 }
 
-.flag{
-    width: 50%;
+.flag {
+  width: 50%;
 }

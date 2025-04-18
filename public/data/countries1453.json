@@ -682,13 +682,6 @@
       "fullNameEnglish": "Canton of Geneva",
       "fullNameLocal": "Kanton Genf"
     },
-    "ING": {
-      "name": "Ingolstadt",
-      "capital": "Ingolstadt",
-      "title": "Duchy",
-      "fullNameEnglish": "Duchy of Ingolstadt",
-      "fullNameLocal": "Herzogtum Ingolstadt"
-    },
     "KNZ": {
       "name": "Konstanz",
       "capital": "Konstanz",
@@ -893,7 +886,7 @@
     },
     "TUR": {
       "name": "Ottomans",
-      "capital": "Edirne",
+      "capital": "Constantinople",
       "title": "Sultanate",
       "fullNameEnglish": "Ottoman Empire",
       "fullNameLocal": "Devlet-i ʿAlīye-i ʿOsmānīye"

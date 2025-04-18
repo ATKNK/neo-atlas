@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as Map1444 } from "../../assets/1444.svg";
+import { ReactComponent as Map1453 } from "../../assets/1453.svg";
 import "./Map.css";
 
-function Map() {
+function Map({onCountryClick}) {
   const [tooltip, setTooltip] = useState({
     visible: false,
     x: 0,
@@ -58,12 +59,20 @@ function Map() {
     setTooltip((prev) => ({ ...prev, visible: false }));
   };
 
+  const handleClick = (e) => {
+    const countryTag = e.target.id;
+    if (countryTag && onCountryClick){
+      onCountryClick(countryTag);
+    }
+  }
+
   useEffect(() => {
     const countries = document.querySelectorAll(".country");
     countries.forEach((country) => {
       country.addEventListener("mouseenter", handleMouseEnter);
       country.addEventListener("mousemove", handleMouseMove);
       country.addEventListener("mouseleave", handleMouseLeave);
+      country.addEventListener("click", handleClick);
     });
 
     return () => {
@@ -71,13 +80,14 @@ function Map() {
         country.removeEventListener("mouseenter", handleMouseEnter);
         country.removeEventListener("mousemove", handleMouseMove);
         country.removeEventListener("mouseleave", handleMouseLeave);
+        country.removeEventListener("click", handleClick);
       });
     };
   }, [countryData]);
 
   return (
     <div className="Map">
-      <Map1444 />
+      <Map1453 />
       <div
         className={`tooltip ${tooltip.visible ? "visible" : ""}`}
         style={{ top: tooltip.y + 10, left: tooltip.x + 10 }}

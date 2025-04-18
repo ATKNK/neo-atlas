@@ -1,0 +1,20 @@
+{
+    "IBERIA":{
+        "CAS":{
+            "leader": "Juan Trastámara II",
+            "history": "The Kingdom of Castile and Leon was the most powerful kingdom in Iberia"
+        },
+        "POR":{
+            "leader": "Infante Pedro",
+            "history": "Having sailed the Atlantic Ocean, the Portuguese realm was expanding westwards into the sea"
+        },
+        "ARA":{
+            "leader": "Alfonso Trastámara V",
+            "history": "Dominating western mediterranean trade and holding control over Naples, the Aragonese crown was very powerful"
+        },
+        "GRA":{
+            "leader": "?",
+            "history": "The last remnants of the islamic realms in Iberia"
+        }
+    }
+}
