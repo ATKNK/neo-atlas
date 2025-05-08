@@ -6,11 +6,17 @@
   height: 90vh;
   width: 65%;
   margin-right: 0;
+  justify-content: end;
 }
 
 .country:hover {
   filter: brightness(110%);
   transition: 0.2s;
+}
+
+path{
+  stroke: black;
+  stroke-width: 0.2px;
 }
 
 .tooltip {

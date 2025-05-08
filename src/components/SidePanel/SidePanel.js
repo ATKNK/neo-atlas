@@ -1,7 +1,7 @@
 import React from "react";
 import "./SidePanel.css";
 
-function SidePanel({ countryData, countryId }) {
+function SidePanel({ countryData, countryId, year }) {
   if (!countryData) {
     return (
       <div className="sidePanel">
@@ -13,7 +13,7 @@ function SidePanel({ countryData, countryId }) {
   return (
     <div className="sidePanel">
       <div className="section" id="year">
-        <h1 className="sectionTitle">1444</h1>
+        <h1 className="sectionTitle">{year}</h1>
       </div>
 
       <div className="section">

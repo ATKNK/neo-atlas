@@ -9,7 +9,7 @@ function App() {
   const [countriesData, setCountriesData] = useState({});
 
   useEffect(() => {
-    fetch("/data/countries.json")
+    fetch("/data/countries1444.json")
       .then((res) => res.json())
       .then((data) => setCountriesData(data));
   }, []);

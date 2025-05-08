@@ -18,6 +18,21 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "svgo": {
+    "plugins": [
+      { "removeDoctype": true },
+      { "removeXMLProcInst": true },
+      { "removeComments": true },
+      { "removeMetadata": true },
+      { "removeEditorsNSData": true },
+      { "removeUselessDefs": true },
+      { "removeTitle": true },
+      { "removeDesc": true },
+      { "removeDimensions": false },
+      { "removeAttrs": { "attrs": ["sodipodi:*", "inkscape:*", "xmlns:*"] } },
+      { "preserveIds": true }
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -35,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }

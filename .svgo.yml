@@ -1,0 +1,18 @@
+---
+plugins:
+  - removeDoctype: true
+  - removeXMLProcInst: true
+  - removeComments: true
+  - removeMetadata: true
+  - removeEditorsNSData: true
+  - cleanupAttrs: true
+  - removeUselessDefs: true
+  - removeTitle: true
+  - removeDesc: true
+  - removeDimensions: false
+  - removeAttrs:
+      attrs:
+        - sodipodi:*
+        - inkscape:*
+        - xmlns:*
+  - preserveIds: true

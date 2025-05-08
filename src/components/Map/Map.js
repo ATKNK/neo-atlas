@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as Map1444 } from "../../assets/1444.svg";
 import { ReactComponent as Map1453 } from "../../assets/1453.svg";
+import { ReactComponent as Testmap } from "../../assets/teste.svg"
 import "./Map.css";
 
 function Map({onCountryClick}) {
@@ -14,7 +15,7 @@ function Map({onCountryClick}) {
   const [countryData, setCountryData] = useState({});
 
   useEffect(() => {
-    fetch("/data/countries.json")
+    fetch("/data/countries1444.json")
       .then((res) => res.json())
       .then((data) => setCountryData(data));
   }, []);
@@ -87,7 +88,7 @@ function Map({onCountryClick}) {
 
   return (
     <div className="Map">
-      <Map1453 />
+      <Map1444 />
       <div
         className={`tooltip ${tooltip.visible ? "visible" : ""}`}
         style={{ top: tooltip.y + 10, left: tooltip.x + 10 }}
